@@ -18,7 +18,7 @@ class pekerja : virtual public orang {
 public:
 
     pekerja(int pUmur) :
-        umur(pUmur)
+        orang(pUmur)
     {
         cout << "orang dibuat dengan umur" << umur << "\n" << endl;
     }
