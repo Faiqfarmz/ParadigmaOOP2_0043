@@ -13,3 +13,13 @@ public:
         cout << "orang dibuat dengan umur" << umur << "\n" << endl;
     }
 };
+
+class pekerja : virtual public orang {
+public:
+
+    pekerja(int pUmur) :
+        umur(pUmur)
+    {
+        cout << "orang dibuat dengan umur" << umur << "\n" << endl;
+    }
+};
